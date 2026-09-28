@@ -1,0 +1,15 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore datasets (large image files)
+datasets/
+
+# Ignore environment folders
+env/
+venv/
+
+# Ignore logs, checkpoints, weights
+*.log
+*.ckpt
+*.weights
